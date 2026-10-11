@@ -1,15 +1,15 @@
 // Non-text data (images, prices, links). The matching text for each item lives
 // in i18n.js at the same index.
-import heroImg from './images/arkaplan.jpg';
-import loseWeightImg from './images/k2.jpg';
-import gainWeightImg from './images/k3.jpeg';
-import maintainImg from './images/k4.jpg';
-import muscleImg from './images/k1.jpeg';
-import zehraImg from './images/zehra.png';
-import ebruImg from './images/ebru.png';
-import blogVideoImg from './images/pars-1485437796.jpg';
-import blogPersonalImg from './images/cardio-compressor.png';
-import blogEquipmentImg from './images/Kilo-Koruma-Beslenme-Programi.jpg';
+import heroImg from './images/hero.jpg';
+import loseWeightImg from './images/program-lose-weight.jpg';
+import gainWeightImg from './images/program-gain-weight.jpg';
+import maintainImg from './images/program-maintain-weight.jpg';
+import muscleImg from './images/program-build-muscle.jpg';
+import zehraImg from './images/founder-zehra.jpg';
+import ebruImg from './images/review-ebru.jpg';
+import blogRunningImg from './images/blog-running.jpg';
+import blogDietImg from './images/blog-diet.jpg';
+import blogTreadmillsImg from './images/blog-treadmills.jpg';
 
 export const BRAND = {
   name: 'Fitness GYM',
@@ -82,13 +82,13 @@ export const PLANS = [
 export const REVIEWS = [{ name: 'Ebru Razi', image: ebruImg }, { name: null }, { name: null }];
 
 export const POSTS = [
-  { image: blogVideoImg, date: '2023-05-10', url: 'https://www.youtube.com/watch?v=-tld0bc0t3k' },
+  { image: blogRunningImg, date: '2023-05-10', url: 'https://www.youtube.com/watch?v=-tld0bc0t3k' },
   {
-    image: blogPersonalImg,
+    image: blogDietImg,
     date: '2023-05-10',
     url: 'https://www.udemy.com/course/aletsiz-vucut-agirligi-ile-kas-gelisimi-yag-yakim-kuvvet/',
   },
-  { image: blogEquipmentImg, date: '2023-05-10', url: 'https://www.hepsiburada.com/ara?q=fitness+malzemeleri' },
+  { image: blogTreadmillsImg, date: '2023-05-10', url: 'https://www.hepsiburada.com/ara?q=fitness+malzemeleri' },
 ];
 
 export const SOCIALS = [
